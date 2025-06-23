@@ -5,7 +5,7 @@ import BurgerMenu from '../components/shared/BurgerMenu'
 
 export default function Navbar() {
     return (
-        <header className='flex items-center justify-between w-full fixed top-0 left-0 z-50 px-[120px] pt-[30px]'>
+        <header className='flex items-center justify-between w-full absolute top-0 left-0 z-50 px-[120px] pt-[30px]'>
             <article className='flex items-center gap-[13px]'>
                 <Image
                     src="/images/navbar/logo.svg"

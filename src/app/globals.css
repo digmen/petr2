@@ -16,11 +16,19 @@
 }
 
 @font-face {
-  font-family: 'EuropeextNormal';
+  font-family: 'GeneralSansRegular';
   font-style: normal;
   font-weight: 400;
   src: url('/fonts/GeneralSans/GeneralSans-Regular.woff2') format('woff2'),
     url('/fonts/GeneralSans/GeneralSans-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'GeneralSansLight';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/fonts/GeneralSans/GeneralSans-Light.woff2') format('woff2'),
+    url('/fonts/GeneralSans/GeneralSans-Light.woff') format('woff');
 }
 
 * {

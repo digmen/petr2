@@ -1,10 +1,11 @@
+import Image from 'next/image'
 import React from 'react'
 
 export default function page() {
   return (
-    <main className='mx-[93px] mt-[8px] h-full'>
+    <main>
       <article
-        className='bg-[url("/images/hero/hero.png")] bg-cover bg-no-repeat w-full h-screen'
+        className='bg-[url("/images/hero/hero.png")] bg-cover bg-no-repeat h-screen mx-[90px] mt-[8px]'
       >
         <aside className='pt-[200px] flex justify-end pr-[32px]'>
           <section className='py-[28px] px-[37px] bg-white/6 backdrop-blur-[5px] w-[300px] flex flex-col gap-[16px] rounded-[20px]'>
@@ -76,6 +77,67 @@ export default function page() {
             </article>
           </section>
         </article>
+      </article>
+
+
+      <article className='mt-[128px] px-[90px]'>
+        <section className='flex items-center gap-[16px] mb-[44px]'>
+          <div className='bg-[#008DBB] w-[8px] h-[8px] rounded-full'>
+          </div>
+          <p className='font-[EuropeextNormal] text-[16px] leading-[16px] text-[#191919]'>
+            About us
+          </p>
+        </section>
+        <section className='flex justify-between'>
+          <div>
+            <div>
+              <h2 className='text-[#191919] text-[64px] leading-[64px] font-[EuropeextBold]'>
+                WE ARE
+              </h2>
+            </div>
+            <div className='flex items-center'>
+              <Image
+                src="/images/aboutus/bluelogo.svg"
+                width={67}
+                height={45}
+                alt="Aventia Studio Logo"
+                className="w-[67px] h-[45px]"
+              />
+              <h1 className='text-[#008DBB] text-[64px] leading-[64px] font-[EuropeextBold]'>
+                VENTIA
+              </h1>
+            </div>
+            <h1 className='text-[#008DBB] text-[64px] leading-[64px] font-[EuropeextBold] pl-60'>
+              STUDIO
+            </h1>
+          </div>
+          <div className='w-[700px] flex flex-col gap-[30px]'>
+            <p className="font-[EuropeextNormal] text-[20px] leading-[24px] text-[#AFAFAF] text-left">
+              We are
+              <strong className="text-[#1A1A1A]"> Aventia </strong>
+              — a
+              <strong className="text-[#1A1A1A]"> multidisciplinary </strong>
+              studio turning ideas into
+              <strong className="text-[#1A1A1A]"> experiences </strong>,
+              and experiences into
+              <strong className="text-[#1A1A1A]"> results.</strong>
+            </p>
+            <p className='font-[EuropeextNormal] text-[20px] leading-[20px] text-[#AFAFAF]'>
+              Our team blends branding, design, development, and motion into seamless digital <strong className="text-[#1A1A1A]">journeys.</strong>
+            </p>
+            <p className='font-[EuropeextNormal] text-[20px] leading-[20px] text-[#AFAFAF]'>
+              With a <strong className="text-[#1A1A1A]">full—cycle process</strong> and a sharp eye for detail, we help future-focused <strong className="text-[#1A1A1A]">brands move faster, bolder, and smarter.</strong>
+            </p>
+          </div>
+        </section>
+
+        <section>
+
+        </section>
+
+        <section>
+
+        </section>
       </article>
     </main>
   )

@@ -15,6 +15,14 @@
   src: url('/fonts/europeext/EuropeExt.otf') format('opentype');
 }
 
+@font-face {
+  font-family: 'EuropeextNormal';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/GeneralSans/GeneralSans-Regular.woff2') format('woff2'),
+    url('/fonts/GeneralSans/GeneralSans-Regular.woff') format('woff');
+}
+
 * {
   /* border: red 1px solid; */
 }
